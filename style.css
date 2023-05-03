@@ -1,0 +1,199 @@
+div {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+/* Header Start */
+.headerBar {
+    color: white;
+    background-color: rgb(14, 36, 78);
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+}
+
+.headText {
+    margin-top: auto;
+    padding-left: 8px;
+}
+
+.links {
+    margin-left: auto;
+    padding-right: 8px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+/* Header End */
+
+/* Section 1 Start */
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(14, 36, 78);
+    color: white;
+}
+
+.textandb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 24px;
+}
+
+.signup1 {
+    padding-top: 16px;
+}
+button {
+    background-color: rgb(102, 171, 236);
+    border-radius: 8px;
+    padding: 4px;
+    border: 0;
+    box-shadow: 0 8px 16px;
+    
+}
+
+.image1 {
+    display: flex;
+    padding-left: 72px;
+    padding-bottom: 24px;
+}
+
+/* Section 1 End */
+
+/* Section 2 Start */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    align-self: center;
+    font-size: 36px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+}
+
+.project-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+}
+
+.project-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+}
+.project-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+}
+
+a img {
+    border: 2px rgb(12, 148, 182) solid;
+    border-radius: 8px;
+}
+
+/* Section 2 End */
+
+/* Section 3 Start */
+
+.section3 {
+    background-image: url("moti3.jpg");
+    background-size: cover;
+    background-color: rgb(62, 107, 86);
+    display: flex;
+    flex-wrap: wrap;
+    background-blend-mode: lighten;
+    justify-content: space-between;
+    color:rgba(16, 38, 161, 0.753);
+}
+
+.quote {
+    font-size: 84px;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.mario {
+    align-self: flex-end;
+    padding-top: 30%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+    font-size: 64px;
+}
+
+/* Section 3 End */
+
+/* Section 4 Start */
+
+.section4 {
+    display: flex;
+    background-color:rgb(14, 36, 78);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 16px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBottom {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    font-size: 24px;
+}
+
+.button2 {
+    margin-right: 10%;
+    scale: 150%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.footer {
+    background-color:rgb(14, 36, 78);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 24px;
+
+}
+
+.charles {
+    border: 2px rgb(12, 148, 182) solid;
+    border-radius: 8px;
+}
